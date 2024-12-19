@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container {
+    width: 90%;
+    margin:0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    transition: .4s;
+    border: none;
+    outline: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh;
+    margin: 0;
+    background: #000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 600px;
+}
+
+button {
+    cursor: pointer;
+    transition: .4s;
+    border: none;
+    outline: none;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    background: #1d1d1d;
+    box-shadow: 0 0 2px #000;
+    margin: 2px;
+    transition: 1s ease;
+}
+
+.square:hover {
+    transition-duration: 0s;
+}
+
+.add-btn {
+    padding: 10px 20px;
+    background:  #1d1d1d;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: .4s;
+    margin-right: 56px;
+}
+
+.add-btn:hover{
+    transition:.4s;
+    color: red;
+    transform: scale(1.1);
+}
+
+.delete-btn {
+    padding: 10px 20px;
+    background: #1d1d1d;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: .4s;
+    margin: 0 70px;
+}
+.delete-btn:hover {
+    transition:.4s;
+    color: red;
+    transform: scale(1.1);
+}
+
